@@ -119,3 +119,60 @@ ul li:nth-child(2){
 ul li:nth-child(3){
    background-color: #2f393e;
 }
+
+
+@media screen and (max-width:900px) and (min-width:450px){
+    .container{
+        width: 700px;
+        min-height: 85vh;
+    }
+    form{
+        padding: 20px;
+    }
+    input{
+        width: 400px;
+        font-size: 29px;
+        
+    }
+
+    ul li{
+        padding: 50px;
+        gap: 40px;
+    }
+
+    ul{
+        gap:30px;
+    }
+    ul li i{
+        font-size: 60px;
+    }
+
+    .degree p, .degree span{
+        font-size: 80px;
+    }
+}
+
+
+
+
+@media screen and (max-width:600px){
+    .container{
+        max-width: 340px;
+    }
+    input{
+        width: 200px;
+    }
+
+    ul li{
+        padding: 10px;
+        gap: 25x;
+    }
+
+    ul{
+        gap:10px;
+    }
+
+    .degree p, .degree span{
+        font-size: 50px;
+    }
+}
